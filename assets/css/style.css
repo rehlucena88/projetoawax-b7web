@@ -412,6 +412,7 @@ body{
 .section-team--social a:hover{
     background-color: #b28756;
 }
+/* foi criada uma nova classe para o "framework" para poder estilizar algumas caracteristicas exclusivas referentes a esse trexho de codigo criando asssim um novo slide .*/
 .testimonials .section-body {
     max-width: initial;
 }
