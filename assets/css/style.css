@@ -413,8 +413,12 @@ body{
     background-color: #b28756;
 }
 /* foi criada uma nova classe para o "framework" para poder estilizar algumas caracteristicas exclusivas referentes a esse trexho de codigo criando asssim um novo slide .*/
+.testimonials{
+    background-color: #f7f7f7;
+}
 .testimonials .section-body {
     max-width: initial;
+    
 }
 .section-testimonials {
     overflow:hidden;
@@ -481,4 +485,20 @@ body{
 }
 .section-testimonials .pointer.active{
     background-color: #b28756;
+}
+.empresas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.empresas-logo{
+    width: 1140px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.empresas-logo img{
+    margin-right: 80px;
 }
