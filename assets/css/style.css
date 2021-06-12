@@ -490,7 +490,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    border-top:1px solid #ccc;
+    border-bottom: 1px solid #ccc
 }
 .empresas-logo{
     width: 1140px;
@@ -501,4 +502,63 @@ body{
 }
 .empresas-logo img{
     margin-right: 80px;
+}
+.price{
+    background-color: #f7f7f7;
+}
+/*usamos display flex e flex 1 porque o section-body ja tem uma largura pre definida no css */
+.price-table{
+    display: flex;
+}
+/*especifica que cada area aqui tera a mesma medida setada pelo flex1 lembrando q o section-body possui um width de 1140px*/
+.price-table--area{
+    flex:1;
+    background-color: #FFF;
+
+    margin-right: 20px;
+    padding:20px;
+
+    text-align:center;
+}
+.price-table--name{
+    font-size: 22px;
+    font-weight: 600;
+    color: #242424;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.price-table--money{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.price-table--period{
+    font-size: 13px;
+    font-weight: 300;
+    color: #999;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.price-table--point{
+    font-size: 15px;
+    font-weight: 300;
+    color: #7e7e7e;
+    margin-bottom: 10px;
+}
+.button--black{
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.button--black:hover,
+.button--black.active{
+    background-color: #b28756;
 }
