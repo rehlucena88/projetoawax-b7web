@@ -492,23 +492,19 @@ body{
 .section-testimonials .pointer.active{
     background-color: #b28756;
 }
-.empresas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top:1px solid #ccc;
-    border-bottom: 1px solid #ccc
+.section-companies {
+    border-top:1px solid #DDD;
+    border-bottom:1px solid #DDD;
 }
-.empresas-logo{
-    width: 1140px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section-companies--area {
+    display:flex;
+    align-items:center;
 }
-.empresas-logo img{
-    margin-right: 80px;
+.section-company {
+    flex:1;
+    text-align:center;
 }
+
 .price{
     background-color: #f7f7f7;
 }
@@ -903,4 +899,94 @@ footer .button:hover {
         margin-right: 30px;
         display: block;
     }
+
+    .section-aboutus{
+        flex-direction: column;        
+    }
+    .section-aboutus-left{
+        margin-left: 40px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .section-aboutus-rigth{
+        width: auto;
+    }
+    .section-aboutus-rigth img{
+        width: 400px;
+    }
+    .section-services {
+        flex-wrap: wrap;
+    }
+    .section-service{
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+    .section-service:first-child{
+        border-left: 0;
+    }
+    .section-team{
+        max-width: 580px;
+    }
+    .section-companies--area{
+        flex-wrap: wrap;
+    }
+    .section-company{
+        min-width: 33%;
+        margin-bottom: 30px;
+    }
+    .price-table {
+        flex-wrap:wrap;
+    }
+    .price-table--area{
+        margin-left:20px;
+        min-width:calc(50% - 40px);
+        margin-bottom:20px;
+    }
+    .price-table--area:last-child{
+        margin-right: 20px;
+    }
+    .section-premium .slidearea{
+        flex-direction: column;
+    }
+    .section-premium .slidearea img {
+        margin-bottom: 30px;
+    }
+    .section-facts {
+        flex-wrap: wrap;
+    }
+    .section-fact{
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+    .section-map{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-map-area{
+        width: auto;
+    }
+    .section-map--info{
+        width: auto;
+    }
+    .section-map--info-item{
+        margin-bottom: 25px;
+    }
+    .section-map--info-item:last-child{
+        margin-bottom: 0;
+    }
+    .section-footer{
+        flex-wrap: wrap;
+    }
+    .footer-left,
+    .footer-midle{
+        min-width: calc(50% - 40px);
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 50px;
+    }
+    .footer-right{
+        flex:none;
+        margin: auto;        
+    }
+
 }
