@@ -1151,9 +1151,11 @@ footer .button:hover {
     }
     .footer-left{
         margin-left:30px;
+        margin-right: 30px;
         margin-bottom: 60px;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-between;
+        min-height: 100px;
     }
     .footer-midle{
         margin-left: 30px;
